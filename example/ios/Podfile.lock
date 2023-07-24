@@ -1,0 +1,1440 @@
+PODS:
+  - abseil/algorithm (1.20220623.0):
+    - abseil/algorithm/algorithm (= 1.20220623.0)
+    - abseil/algorithm/container (= 1.20220623.0)
+  - abseil/algorithm/algorithm (1.20220623.0):
+    - abseil/base/config
+  - abseil/algorithm/container (1.20220623.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/base (1.20220623.0):
+    - abseil/base/atomic_hook (= 1.20220623.0)
+    - abseil/base/base (= 1.20220623.0)
+    - abseil/base/base_internal (= 1.20220623.0)
+    - abseil/base/config (= 1.20220623.0)
+    - abseil/base/core_headers (= 1.20220623.0)
+    - abseil/base/dynamic_annotations (= 1.20220623.0)
+    - abseil/base/endian (= 1.20220623.0)
+    - abseil/base/errno_saver (= 1.20220623.0)
+    - abseil/base/fast_type_id (= 1.20220623.0)
+    - abseil/base/log_severity (= 1.20220623.0)
+    - abseil/base/malloc_internal (= 1.20220623.0)
+    - abseil/base/prefetch (= 1.20220623.0)
+    - abseil/base/pretty_function (= 1.20220623.0)
+    - abseil/base/raw_logging_internal (= 1.20220623.0)
+    - abseil/base/spinlock_wait (= 1.20220623.0)
+    - abseil/base/strerror (= 1.20220623.0)
+    - abseil/base/throw_delegate (= 1.20220623.0)
+  - abseil/base/atomic_hook (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/base (1.20220623.0):
+    - abseil/base/atomic_hook
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/log_severity
+    - abseil/base/raw_logging_internal
+    - abseil/base/spinlock_wait
+    - abseil/meta/type_traits
+  - abseil/base/base_internal (1.20220623.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - abseil/base/config (1.20220623.0)
+  - abseil/base/core_headers (1.20220623.0):
+    - abseil/base/config
+  - abseil/base/dynamic_annotations (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/endian (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/errno_saver (1.20220623.0):
+    - abseil/base/config
+  - abseil/base/fast_type_id (1.20220623.0):
+    - abseil/base/config
+  - abseil/base/log_severity (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/malloc_internal (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/raw_logging_internal
+  - abseil/base/prefetch (1.20220623.0):
+    - abseil/base/config
+  - abseil/base/pretty_function (1.20220623.0)
+  - abseil/base/raw_logging_internal (1.20220623.0):
+    - abseil/base/atomic_hook
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/errno_saver
+    - abseil/base/log_severity
+  - abseil/base/spinlock_wait (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/core_headers
+    - abseil/base/errno_saver
+  - abseil/base/strerror (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/errno_saver
+  - abseil/base/throw_delegate (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/cleanup/cleanup (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/cleanup/cleanup_internal
+  - abseil/cleanup/cleanup_internal (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/core_headers
+    - abseil/utility/utility
+  - abseil/container/common (1.20220623.0):
+    - abseil/meta/type_traits
+    - abseil/types/optional
+  - abseil/container/compressed_tuple (1.20220623.0):
+    - abseil/utility/utility
+  - abseil/container/container_memory (1.20220623.0):
+    - abseil/base/config
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/utility/utility
+  - abseil/container/fixed_array (1.20220623.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/throw_delegate
+    - abseil/container/compressed_tuple
+    - abseil/memory/memory
+  - abseil/container/flat_hash_map (1.20220623.0):
+    - abseil/algorithm/container
+    - abseil/base/core_headers
+    - abseil/container/container_memory
+    - abseil/container/hash_function_defaults
+    - abseil/container/raw_hash_map
+    - abseil/memory/memory
+  - abseil/container/flat_hash_set (1.20220623.0):
+    - abseil/algorithm/container
+    - abseil/base/core_headers
+    - abseil/container/container_memory
+    - abseil/container/hash_function_defaults
+    - abseil/container/raw_hash_set
+    - abseil/memory/memory
+  - abseil/container/hash_function_defaults (1.20220623.0):
+    - abseil/base/config
+    - abseil/hash/hash
+    - abseil/strings/cord
+    - abseil/strings/strings
+  - abseil/container/hash_policy_traits (1.20220623.0):
+    - abseil/meta/type_traits
+  - abseil/container/hashtable_debug_hooks (1.20220623.0):
+    - abseil/base/config
+  - abseil/container/hashtablez_sampler (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/debugging/stacktrace
+    - abseil/memory/memory
+    - abseil/profiling/exponential_biased
+    - abseil/profiling/sample_recorder
+    - abseil/synchronization/synchronization
+    - abseil/utility/utility
+  - abseil/container/inlined_vector (1.20220623.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/container/inlined_vector_internal
+    - abseil/memory/memory
+  - abseil/container/inlined_vector_internal (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/container/compressed_tuple
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/span
+  - abseil/container/layout (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/strings/strings
+    - abseil/types/span
+    - abseil/utility/utility
+  - abseil/container/raw_hash_map (1.20220623.0):
+    - abseil/base/throw_delegate
+    - abseil/container/container_memory
+    - abseil/container/raw_hash_set
+  - abseil/container/raw_hash_set (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/prefetch
+    - abseil/container/common
+    - abseil/container/compressed_tuple
+    - abseil/container/container_memory
+    - abseil/container/hash_policy_traits
+    - abseil/container/hashtable_debug_hooks
+    - abseil/container/hashtablez_sampler
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/utility/utility
+  - abseil/debugging/debugging_internal (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/errno_saver
+    - abseil/base/raw_logging_internal
+  - abseil/debugging/demangle_internal (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/debugging/stacktrace (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/debugging/debugging_internal
+  - abseil/debugging/symbolize (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/malloc_internal
+    - abseil/base/raw_logging_internal
+    - abseil/debugging/debugging_internal
+    - abseil/debugging/demangle_internal
+    - abseil/strings/strings
+  - abseil/functional/any_invocable (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/utility/utility
+  - abseil/functional/bind_front (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/container/compressed_tuple
+    - abseil/meta/type_traits
+    - abseil/utility/utility
+  - abseil/functional/function_ref (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/hash/city (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+  - abseil/hash/hash (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/container/fixed_array
+    - abseil/functional/function_ref
+    - abseil/hash/city
+    - abseil/hash/low_level_hash
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/strings/strings
+    - abseil/types/optional
+    - abseil/types/variant
+    - abseil/utility/utility
+  - abseil/hash/low_level_hash (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/endian
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+  - abseil/memory (1.20220623.0):
+    - abseil/memory/memory (= 1.20220623.0)
+  - abseil/memory/memory (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/meta (1.20220623.0):
+    - abseil/meta/type_traits (= 1.20220623.0)
+  - abseil/meta/type_traits (1.20220623.0):
+    - abseil/base/config
+  - abseil/numeric/bits (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/numeric/int128 (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/numeric/bits
+  - abseil/numeric/representation (1.20220623.0):
+    - abseil/base/config
+  - abseil/profiling/exponential_biased (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/profiling/sample_recorder (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/synchronization/synchronization
+    - abseil/time/time
+  - abseil/random/distributions (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/random/internal/distribution_caller
+    - abseil/random/internal/fast_uniform_bits
+    - abseil/random/internal/fastmath
+    - abseil/random/internal/generate_real
+    - abseil/random/internal/iostream_state_saver
+    - abseil/random/internal/traits
+    - abseil/random/internal/uniform_helper
+    - abseil/random/internal/wide_multiply
+    - abseil/strings/strings
+  - abseil/random/internal/distribution_caller (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/fast_type_id
+    - abseil/utility/utility
+  - abseil/random/internal/fast_uniform_bits (1.20220623.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+    - abseil/random/internal/traits
+  - abseil/random/internal/fastmath (1.20220623.0):
+    - abseil/numeric/bits
+  - abseil/random/internal/generate_real (1.20220623.0):
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/random/internal/fastmath
+    - abseil/random/internal/traits
+  - abseil/random/internal/iostream_state_saver (1.20220623.0):
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+  - abseil/random/internal/nonsecure_base (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/container/inlined_vector
+    - abseil/meta/type_traits
+    - abseil/random/internal/pool_urbg
+    - abseil/random/internal/salted_seed_seq
+    - abseil/random/internal/seed_material
+    - abseil/types/span
+  - abseil/random/internal/pcg_engine (1.20220623.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+    - abseil/random/internal/fastmath
+    - abseil/random/internal/iostream_state_saver
+  - abseil/random/internal/platform (1.20220623.0):
+    - abseil/base/config
+  - abseil/random/internal/pool_urbg (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/random/internal/randen
+    - abseil/random/internal/seed_material
+    - abseil/random/internal/traits
+    - abseil/random/seed_gen_exception
+    - abseil/types/span
+  - abseil/random/internal/randen (1.20220623.0):
+    - abseil/base/raw_logging_internal
+    - abseil/random/internal/platform
+    - abseil/random/internal/randen_hwaes
+    - abseil/random/internal/randen_slow
+  - abseil/random/internal/randen_engine (1.20220623.0):
+    - abseil/base/endian
+    - abseil/meta/type_traits
+    - abseil/random/internal/iostream_state_saver
+    - abseil/random/internal/randen
+  - abseil/random/internal/randen_hwaes (1.20220623.0):
+    - abseil/base/config
+    - abseil/random/internal/platform
+    - abseil/random/internal/randen_hwaes_impl
+  - abseil/random/internal/randen_hwaes_impl (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/numeric/int128
+    - abseil/random/internal/platform
+  - abseil/random/internal/randen_slow (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/numeric/int128
+    - abseil/random/internal/platform
+  - abseil/random/internal/salted_seed_seq (1.20220623.0):
+    - abseil/container/inlined_vector
+    - abseil/meta/type_traits
+    - abseil/random/internal/seed_material
+    - abseil/types/optional
+    - abseil/types/span
+  - abseil/random/internal/seed_material (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/raw_logging_internal
+    - abseil/random/internal/fast_uniform_bits
+    - abseil/strings/strings
+    - abseil/types/optional
+    - abseil/types/span
+  - abseil/random/internal/traits (1.20220623.0):
+    - abseil/base/config
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+  - abseil/random/internal/uniform_helper (1.20220623.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/random/internal/traits
+  - abseil/random/internal/wide_multiply (1.20220623.0):
+    - abseil/base/config
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+    - abseil/random/internal/traits
+  - abseil/random/random (1.20220623.0):
+    - abseil/random/distributions
+    - abseil/random/internal/nonsecure_base
+    - abseil/random/internal/pcg_engine
+    - abseil/random/internal/pool_urbg
+    - abseil/random/internal/randen_engine
+    - abseil/random/seed_sequences
+  - abseil/random/seed_gen_exception (1.20220623.0):
+    - abseil/base/config
+  - abseil/random/seed_sequences (1.20220623.0):
+    - abseil/base/config
+    - abseil/random/internal/pool_urbg
+    - abseil/random/internal/salted_seed_seq
+    - abseil/random/internal/seed_material
+    - abseil/random/seed_gen_exception
+    - abseil/types/span
+  - abseil/status/status (1.20220623.0):
+    - abseil/base/atomic_hook
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/base/strerror
+    - abseil/container/inlined_vector
+    - abseil/debugging/stacktrace
+    - abseil/debugging/symbolize
+    - abseil/functional/function_ref
+    - abseil/strings/cord
+    - abseil/strings/str_format
+    - abseil/strings/strings
+    - abseil/types/optional
+  - abseil/status/statusor (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/meta/type_traits
+    - abseil/status/status
+    - abseil/strings/strings
+    - abseil/types/variant
+    - abseil/utility/utility
+  - abseil/strings/cord (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/container/fixed_array
+    - abseil/container/inlined_vector
+    - abseil/functional/function_ref
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/strings/cord_internal
+    - abseil/strings/cordz_functions
+    - abseil/strings/cordz_info
+    - abseil/strings/cordz_statistics
+    - abseil/strings/cordz_update_scope
+    - abseil/strings/cordz_update_tracker
+    - abseil/strings/internal
+    - abseil/strings/str_format
+    - abseil/strings/strings
+    - abseil/types/optional
+    - abseil/types/span
+  - abseil/strings/cord_internal (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/base/throw_delegate
+    - abseil/container/compressed_tuple
+    - abseil/container/inlined_vector
+    - abseil/container/layout
+    - abseil/functional/function_ref
+    - abseil/meta/type_traits
+    - abseil/strings/strings
+    - abseil/types/span
+  - abseil/strings/cordz_functions (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/profiling/exponential_biased
+  - abseil/strings/cordz_handle (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+    - abseil/synchronization/synchronization
+  - abseil/strings/cordz_info (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/container/inlined_vector
+    - abseil/debugging/stacktrace
+    - abseil/strings/cord_internal
+    - abseil/strings/cordz_functions
+    - abseil/strings/cordz_handle
+    - abseil/strings/cordz_statistics
+    - abseil/strings/cordz_update_tracker
+    - abseil/synchronization/synchronization
+    - abseil/types/span
+  - abseil/strings/cordz_statistics (1.20220623.0):
+    - abseil/base/config
+    - abseil/strings/cordz_update_tracker
+  - abseil/strings/cordz_update_scope (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/strings/cord_internal
+    - abseil/strings/cordz_info
+    - abseil/strings/cordz_update_tracker
+  - abseil/strings/cordz_update_tracker (1.20220623.0):
+    - abseil/base/config
+  - abseil/strings/internal (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/meta/type_traits
+  - abseil/strings/str_format (1.20220623.0):
+    - abseil/strings/str_format_internal
+  - abseil/strings/str_format_internal (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/functional/function_ref
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+    - abseil/numeric/representation
+    - abseil/strings/strings
+    - abseil/types/optional
+    - abseil/types/span
+    - abseil/utility/utility
+  - abseil/strings/strings (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/base/throw_delegate
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/numeric/bits
+    - abseil/numeric/int128
+    - abseil/strings/internal
+  - abseil/synchronization/graphcycles_internal (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/malloc_internal
+    - abseil/base/raw_logging_internal
+  - abseil/synchronization/kernel_timeout_internal (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/time/time
+  - abseil/synchronization/synchronization (1.20220623.0):
+    - abseil/base/atomic_hook
+    - abseil/base/base
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/malloc_internal
+    - abseil/base/raw_logging_internal
+    - abseil/debugging/stacktrace
+    - abseil/debugging/symbolize
+    - abseil/synchronization/graphcycles_internal
+    - abseil/synchronization/kernel_timeout_internal
+    - abseil/time/time
+  - abseil/time (1.20220623.0):
+    - abseil/time/internal (= 1.20220623.0)
+    - abseil/time/time (= 1.20220623.0)
+  - abseil/time/internal (1.20220623.0):
+    - abseil/time/internal/cctz (= 1.20220623.0)
+  - abseil/time/internal/cctz (1.20220623.0):
+    - abseil/time/internal/cctz/civil_time (= 1.20220623.0)
+    - abseil/time/internal/cctz/time_zone (= 1.20220623.0)
+  - abseil/time/internal/cctz/civil_time (1.20220623.0):
+    - abseil/base/config
+  - abseil/time/internal/cctz/time_zone (1.20220623.0):
+    - abseil/base/config
+    - abseil/time/internal/cctz/civil_time
+  - abseil/time/time (1.20220623.0):
+    - abseil/base/base
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/numeric/int128
+    - abseil/strings/strings
+    - abseil/time/internal/cctz/civil_time
+    - abseil/time/internal/cctz/time_zone
+  - abseil/types (1.20220623.0):
+    - abseil/types/any (= 1.20220623.0)
+    - abseil/types/bad_any_cast (= 1.20220623.0)
+    - abseil/types/bad_any_cast_impl (= 1.20220623.0)
+    - abseil/types/bad_optional_access (= 1.20220623.0)
+    - abseil/types/bad_variant_access (= 1.20220623.0)
+    - abseil/types/compare (= 1.20220623.0)
+    - abseil/types/optional (= 1.20220623.0)
+    - abseil/types/span (= 1.20220623.0)
+    - abseil/types/variant (= 1.20220623.0)
+  - abseil/types/any (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/fast_type_id
+    - abseil/meta/type_traits
+    - abseil/types/bad_any_cast
+    - abseil/utility/utility
+  - abseil/types/bad_any_cast (1.20220623.0):
+    - abseil/base/config
+    - abseil/types/bad_any_cast_impl
+  - abseil/types/bad_any_cast_impl (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/bad_optional_access (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/bad_variant_access (1.20220623.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/compare (1.20220623.0):
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/types/optional (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/bad_optional_access
+    - abseil/utility/utility
+  - abseil/types/span (1.20220623.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/meta/type_traits
+  - abseil/types/variant (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/types/bad_variant_access
+    - abseil/utility/utility
+  - abseil/utility/utility (1.20220623.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - AWSCore (2.33.1)
+  - AWSS3 (2.33.1):
+    - AWSCore (= 2.33.1)
+  - boost (1.76.0)
+  - BoringSSL-GRPC (0.0.24):
+    - BoringSSL-GRPC/Implementation (= 0.0.24)
+    - BoringSSL-GRPC/Interface (= 0.0.24)
+  - BoringSSL-GRPC/Implementation (0.0.24):
+    - BoringSSL-GRPC/Interface (= 0.0.24)
+  - BoringSSL-GRPC/Interface (0.0.24)
+  - DoubleConversion (1.1.6)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - FBLazyVector (0.67.1)
+  - FBReactNativeSpec (0.67.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.67.1)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - FBSDKCoreKit (6.5.2):
+    - FBSDKCoreKit/Basics (= 6.5.2)
+    - FBSDKCoreKit/Core (= 6.5.2)
+  - FBSDKCoreKit/Basics (6.5.2)
+  - FBSDKCoreKit/Core (6.5.2):
+    - FBSDKCoreKit/Basics
+  - FBSDKCoreKit/Swift (6.5.2):
+    - FBSDKCoreKit/Core
+  - FBSDKLoginKit/Login (6.5.2):
+    - FBSDKCoreKit (~> 6.5.2)
+  - FBSDKLoginKit/Swift (6.5.2):
+    - FBSDKCoreKit/Swift (~> 6.5.2)
+    - FBSDKLoginKit/Login
+  - Firebase/Auth (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.12.0)
+  - Firebase/CoreOnly (10.12.0):
+    - FirebaseCore (= 10.12.0)
+  - Firebase/Database (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 10.12.0)
+  - Firebase/DynamicLinks (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 10.12.0)
+  - Firebase/Firestore (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 10.12.0)
+  - Firebase/Functions (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseFunctions (~> 10.12.0)
+  - Firebase/Messaging (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.12.0)
+  - Firebase/Storage (10.12.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.12.0)
+  - FirebaseAppCheckInterop (10.12.0)
+  - FirebaseAuth (10.12.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseAuthInterop (10.12.0)
+  - FirebaseCore (10.12.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreDiagnostics (9.6.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreExtension (10.12.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.12.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDatabase (10.12.0):
+    - FirebaseCore (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (10.12.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseFirestore (10.12.0):
+    - abseil/algorithm (~> 1.20220623.0)
+    - abseil/base (~> 1.20220623.0)
+    - abseil/container/flat_hash_map (~> 1.20220623.0)
+    - abseil/memory (~> 1.20220623.0)
+    - abseil/meta (~> 1.20220623.0)
+    - abseil/strings/strings (~> 1.20220623.0)
+    - abseil/time (~> 1.20220623.0)
+    - abseil/types (~> 1.20220623.0)
+    - FirebaseCore (~> 10.0)
+    - "gRPC-C++ (~> 1.50.1)"
+    - leveldb-library (~> 1.22)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseFunctions (10.12.0):
+    - FirebaseAppCheckInterop (~> 10.10)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseMessagingInterop (~> 10.0)
+    - FirebaseSharedSwift (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseInstallations (10.12.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.12.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseMessagingInterop (10.12.0)
+  - FirebaseSharedSwift (10.12.0)
+  - FirebaseStorage (10.12.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - fmt (6.2.1)
+  - glog (0.3.5)
+  - Google-Maps-iOS-Utils (4.1.0):
+    - Google-Maps-iOS-Utils/Clustering (= 4.1.0)
+    - Google-Maps-iOS-Utils/Geometry (= 4.1.0)
+    - Google-Maps-iOS-Utils/GeometryUtils (= 4.1.0)
+    - Google-Maps-iOS-Utils/Heatmap (= 4.1.0)
+    - Google-Maps-iOS-Utils/QuadTree (= 4.1.0)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (4.1.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (4.1.0):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/GeometryUtils (4.1.0):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (4.1.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (4.1.0):
+    - GoogleMaps
+  - GoogleDataTransport (9.2.3):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.11.4):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.4):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.4):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.11.4):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.4)"
+  - GoogleUtilities/Reachability (7.11.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.4):
+    - GoogleUtilities/Logger
+  - "gRPC-C++ (1.50.1)":
+    - "gRPC-C++/Implementation (= 1.50.1)"
+    - "gRPC-C++/Interface (= 1.50.1)"
+  - "gRPC-C++/Implementation (1.50.1)":
+    - abseil/base/base (= 1.20220623.0)
+    - abseil/base/core_headers (= 1.20220623.0)
+    - abseil/cleanup/cleanup (= 1.20220623.0)
+    - abseil/container/flat_hash_map (= 1.20220623.0)
+    - abseil/container/flat_hash_set (= 1.20220623.0)
+    - abseil/container/inlined_vector (= 1.20220623.0)
+    - abseil/functional/any_invocable (= 1.20220623.0)
+    - abseil/functional/bind_front (= 1.20220623.0)
+    - abseil/functional/function_ref (= 1.20220623.0)
+    - abseil/hash/hash (= 1.20220623.0)
+    - abseil/memory/memory (= 1.20220623.0)
+    - abseil/meta/type_traits (= 1.20220623.0)
+    - abseil/random/random (= 1.20220623.0)
+    - abseil/status/status (= 1.20220623.0)
+    - abseil/status/statusor (= 1.20220623.0)
+    - abseil/strings/cord (= 1.20220623.0)
+    - abseil/strings/str_format (= 1.20220623.0)
+    - abseil/strings/strings (= 1.20220623.0)
+    - abseil/synchronization/synchronization (= 1.20220623.0)
+    - abseil/time/time (= 1.20220623.0)
+    - abseil/types/optional (= 1.20220623.0)
+    - abseil/types/span (= 1.20220623.0)
+    - abseil/types/variant (= 1.20220623.0)
+    - abseil/utility/utility (= 1.20220623.0)
+    - "gRPC-C++/Interface (= 1.50.1)"
+    - gRPC-Core (= 1.50.1)
+  - "gRPC-C++/Interface (1.50.1)"
+  - gRPC-Core (1.50.1):
+    - gRPC-Core/Implementation (= 1.50.1)
+    - gRPC-Core/Interface (= 1.50.1)
+  - gRPC-Core/Implementation (1.50.1):
+    - abseil/base/base (= 1.20220623.0)
+    - abseil/base/core_headers (= 1.20220623.0)
+    - abseil/container/flat_hash_map (= 1.20220623.0)
+    - abseil/container/flat_hash_set (= 1.20220623.0)
+    - abseil/container/inlined_vector (= 1.20220623.0)
+    - abseil/functional/any_invocable (= 1.20220623.0)
+    - abseil/functional/bind_front (= 1.20220623.0)
+    - abseil/functional/function_ref (= 1.20220623.0)
+    - abseil/hash/hash (= 1.20220623.0)
+    - abseil/memory/memory (= 1.20220623.0)
+    - abseil/meta/type_traits (= 1.20220623.0)
+    - abseil/random/random (= 1.20220623.0)
+    - abseil/status/status (= 1.20220623.0)
+    - abseil/status/statusor (= 1.20220623.0)
+    - abseil/strings/cord (= 1.20220623.0)
+    - abseil/strings/str_format (= 1.20220623.0)
+    - abseil/strings/strings (= 1.20220623.0)
+    - abseil/synchronization/synchronization (= 1.20220623.0)
+    - abseil/time/time (= 1.20220623.0)
+    - abseil/types/optional (= 1.20220623.0)
+    - abseil/types/span (= 1.20220623.0)
+    - abseil/types/variant (= 1.20220623.0)
+    - abseil/utility/utility (= 1.20220623.0)
+    - BoringSSL-GRPC (= 0.0.24)
+    - gRPC-Core/Interface (= 1.50.1)
+  - gRPC-Core/Interface (1.50.1)
+  - GTMSessionFetcher/Core (3.1.1)
+  - HaishinKit (10.1.5):
+    - Logboard (~> 2.2.1)
+  - JWTDecode (2.6.3)
+  - Kingfisher (7.8.1)
+  - leveldb-library (1.22.2)
+  - Logboard (2.2.4)
+  - MarqueeLabel (4.3.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - NotificationBannerSwift (3.2.1):
+    - MarqueeLabel (~> 4.3.0)
+    - SnapKit (~> 5.6.0)
+  - OktaOidc (3.11.2):
+    - OktaOidc/AppAuth (= 3.11.2)
+    - OktaOidc/Okta (= 3.11.2)
+  - OktaOidc/AppAuth (3.11.2)
+  - OktaOidc/Okta (3.11.2):
+    - OktaOidc/AppAuth
+  - PromisesObjC (2.2.0)
+  - RCT-Folly (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+    - RCT-Folly/Default (= 2021.06.28.00-v2)
+  - RCT-Folly/Default (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+  - RCTRequired (0.67.1)
+  - RCTTypeSafety (0.67.1):
+    - FBLazyVector (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.67.1)
+    - React-Core (= 0.67.1)
+  - React (0.67.1):
+    - React-Core (= 0.67.1)
+    - React-Core/DevSupport (= 0.67.1)
+    - React-Core/RCTWebSocket (= 0.67.1)
+    - React-RCTActionSheet (= 0.67.1)
+    - React-RCTAnimation (= 0.67.1)
+    - React-RCTBlob (= 0.67.1)
+    - React-RCTImage (= 0.67.1)
+    - React-RCTLinking (= 0.67.1)
+    - React-RCTNetwork (= 0.67.1)
+    - React-RCTSettings (= 0.67.1)
+    - React-RCTText (= 0.67.1)
+    - React-RCTVibration (= 0.67.1)
+  - React-callinvoker (0.67.1)
+  - React-Core (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.67.1)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/CoreModulesHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/Default (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/DevSupport (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.67.1)
+    - React-Core/RCTWebSocket (= 0.67.1)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-jsinspector (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTActionSheetHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTAnimationHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTBlobHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTImageHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTLinkingHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTNetworkHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTSettingsHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTTextHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTVibrationHeaders (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-Core/RCTWebSocket (0.67.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.67.1)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsiexecutor (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - Yoga
+  - React-CoreModules (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core/CoreModulesHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-RCTImage (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-cxxreact (0.67.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-jsinspector (= 0.67.1)
+    - React-logger (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+    - React-runtimeexecutor (= 0.67.1)
+  - React-jsi (0.67.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-jsi/Default (= 0.67.1)
+  - React-jsi/Default (0.67.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+  - React-jsiexecutor (0.67.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+  - React-jsinspector (0.67.1)
+  - React-logger (0.67.1):
+    - glog
+  - React-perflogger (0.67.1)
+  - React-RCTActionSheet (0.67.1):
+    - React-Core/RCTActionSheetHeaders (= 0.67.1)
+  - React-RCTAnimation (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core/RCTAnimationHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTBlob (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/RCTBlobHeaders (= 0.67.1)
+    - React-Core/RCTWebSocket (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-RCTNetwork (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTImage (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core/RCTImageHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-RCTNetwork (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTLinking (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - React-Core/RCTLinkingHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTNetwork (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core/RCTNetworkHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTSettings (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.67.1)
+    - React-Core/RCTSettingsHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-RCTText (0.67.1):
+    - React-Core/RCTTextHeaders (= 0.67.1)
+  - React-RCTVibration (0.67.1):
+    - FBReactNativeSpec (= 0.67.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/RCTVibrationHeaders (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - ReactCommon/turbomodule/core (= 0.67.1)
+  - React-runtimeexecutor (0.67.1):
+    - React-jsi (= 0.67.1)
+  - ReactCommon/turbomodule/core (0.67.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.67.1)
+    - React-Core (= 0.67.1)
+    - React-cxxreact (= 0.67.1)
+    - React-jsi (= 0.67.1)
+    - React-logger (= 0.67.1)
+    - React-perflogger (= 0.67.1)
+  - Realm (10.20.1):
+    - Realm/Headers (= 10.20.1)
+  - Realm/Headers (10.20.1)
+  - RealmSwift (10.20.1):
+    - Realm (= 10.20.1)
+  - Sentry (8.9.1):
+    - Sentry/Core (= 8.9.1)
+    - SentryPrivate (= 8.9.1)
+  - Sentry/Core (8.9.1):
+    - SentryPrivate (= 8.9.1)
+  - SentryPrivate (8.9.1)
+  - SimplePing (1.0.1)
+  - SnapKit (5.6.0)
+  - SnappersSDK (1.5.6):
+    - AWSS3
+    - EVReflection
+    - FBSDKCoreKit/Swift
+    - FBSDKLoginKit/Swift
+    - Firebase/Auth
+    - Firebase/Database
+    - Firebase/DynamicLinks
+    - Firebase/Firestore
+    - Firebase/Functions
+    - Firebase/Messaging
+    - Firebase/Storage
+    - FirebaseCoreDiagnostics
+    - Google-Maps-iOS-Utils
+    - GoogleMaps (~> 4.1.0)
+    - HaishinKit (~> 10.1.5)
+    - JWTDecode (~> 2.3)
+    - Kingfisher
+    - NotificationBannerSwift
+    - OktaOidc
+    - RealmSwift (~> 10.20.0)
+    - Sentry
+    - SimplePing
+    - SwiftKeychainWrapper
+    - SwiftyGif
+    - SwipeCellKit
+    - UIImageView-Letters
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftyGif (5.4.4)
+  - SwipeCellKit (2.7.1)
+  - UIImageView-Letters (1.1.4)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
+  - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
+  - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
+  - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
+  - React (from `../node_modules/react-native/`)
+  - React-callinvoker (from `../node_modules/react-native/ReactCommon/callinvoker`)
+  - React-Core (from `../node_modules/react-native/`)
+  - React-Core/DevSupport (from `../node_modules/react-native/`)
+  - React-Core/RCTWebSocket (from `../node_modules/react-native/`)
+  - React-CoreModules (from `../node_modules/react-native/React/CoreModules`)
+  - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
+  - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
+  - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
+  - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - SnappersSDK
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs:
+    - abseil
+    - AWSCore
+    - AWSS3
+    - BoringSSL-GRPC
+    - EVReflection
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseFirestore
+    - FirebaseFunctions
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseMessagingInterop
+    - FirebaseSharedSwift
+    - FirebaseStorage
+    - fmt
+    - Google-Maps-iOS-Utils
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
+    - GTMSessionFetcher
+    - JWTDecode
+    - Kingfisher
+    - leveldb-library
+    - Logboard
+    - MarqueeLabel
+    - nanopb
+    - NotificationBannerSwift
+    - OktaOidc
+    - PromisesObjC
+    - Realm
+    - RealmSwift
+    - Sentry
+    - SentryPrivate
+    - SimplePing
+    - SnapKit
+    - SwiftKeychainWrapper
+    - SwiftyGif
+    - SwipeCellKit
+    - UIImageView-Letters
+  https://github.com/Snappers-tv/HaishinKit.swift:
+    - HaishinKit
+  https://github.com/Snappers-tv/SnappersSDKDist.git:
+    - SnappersSDK
+
+EXTERNAL SOURCES:
+  boost:
+    :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  FBLazyVector:
+    :path: "../node_modules/react-native/Libraries/FBLazyVector"
+  FBReactNativeSpec:
+    :path: "../node_modules/react-native/React/FBReactNativeSpec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  RCT-Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
+  RCTRequired:
+    :path: "../node_modules/react-native/Libraries/RCTRequired"
+  RCTTypeSafety:
+    :path: "../node_modules/react-native/Libraries/TypeSafety"
+  React:
+    :path: "../node_modules/react-native/"
+  React-callinvoker:
+    :path: "../node_modules/react-native/ReactCommon/callinvoker"
+  React-Core:
+    :path: "../node_modules/react-native/"
+  React-CoreModules:
+    :path: "../node_modules/react-native/React/CoreModules"
+  React-cxxreact:
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
+  React-jsi:
+    :path: "../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  React-logger:
+    :path: "../node_modules/react-native/ReactCommon/logger"
+  React-perflogger:
+    :path: "../node_modules/react-native/ReactCommon/reactperflogger"
+  React-RCTActionSheet:
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../node_modules/react-native/Libraries/Vibration"
+  React-runtimeexecutor:
+    :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
+  ReactCommon:
+    :path: "../node_modules/react-native/ReactCommon"
+  Yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  abseil: 926fb7a82dc6d2b8e1f2ed7f3a718bce691d1e46
+  AWSCore: 0d016cdc9eaacbf3132b4fac1974f0b92d48c851
+  AWSS3: 01bc3c19e30e87c340b9c31881afc30700d178fc
+  boost: a7c83b31436843459a1961bfd74b96033dc77234
+  BoringSSL-GRPC: 3175b25143e648463a56daeaaa499c6cb86dad33
+  DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  FBLazyVector: cf409c74423d3507bda74bda1dc41e903ec2cd5b
+  FBReactNativeSpec: ef0ce762fdb37900abb01e008cce5f0ef2cce6b7
+  FBSDKCoreKit: ada5c8a05188daefc9addb985c52b8a1b26da519
+  FBSDKLoginKit: caa165495afa29a12324cb2307fe6e5b33783142
+  Firebase: 07150e75d142fb9399f6777fa56a187b17f833a0
+  FirebaseAppCheckInterop: f95a4feb9089867aff1a4bdc2ce309137e07736a
+  FirebaseAuth: a66c1e14ec58f41d154a4b41ce1a23ea00ad4805
+  FirebaseAuthInterop: 047153f3c2928822032190aa5194e332670a0d66
+  FirebaseCore: f86a1394906b97ac445ae49c92552a9425831bed
+  FirebaseCoreDiagnostics: 99a495094b10a57eeb3ae8efa1665700ad0bdaa6
+  FirebaseCoreExtension: 0ce5ac36042001cfa233ce7bfa28e5c313cf80f4
+  FirebaseCoreInternal: 950500ad8a08963657f6d8c67b579740c06d6aa1
+  FirebaseDatabase: 6d998d7ef2c1723b3e798a85e61a7dc0504b1ea0
+  FirebaseDynamicLinks: 1a387da899779e5ef34f4d6f8bdba882f90d0e67
+  FirebaseFirestore: f94c9541515fa4a49af52269bbc50349009424b4
+  FirebaseFunctions: d49c7920b289d85029882927e4056ad04a906e19
+  FirebaseInstallations: 7b99ef103f013624444c614397038219c45f8e63
+  FirebaseMessaging: bb2c4f6422a753038fe137d90ae7c1af57251316
+  FirebaseMessagingInterop: 9009d471dc63cb9e5a7d170e7c107fb78c469f19
+  FirebaseSharedSwift: c4eb72d435973c77d6f155f05c963933dcba35a7
+  FirebaseStorage: 1d7ca8c8953fc61ccacaa7c612696b5402968a0d
+  fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
+  glog: 85ecdd10ee8d8ec362ef519a6a45ff9aa27b2e85
+  Google-Maps-iOS-Utils: 3343332b18dfd5be8f1f44edd7d481ace3da4d9a
+  GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GoogleUtilities: c63691989bf362ba0505507da00eeb326192e83e
+  "gRPC-C++": 0968bace703459fd3e5dcb0b2bed4c573dbff046
+  gRPC-Core: 17108291d84332196d3c8466b48f016fc17d816d
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  HaishinKit: 4488880d879559c7e009232d88d691d642c14e91
+  JWTDecode: 33e5e26e5ddbd21b2065820894c08fef0cad9509
+  Kingfisher: 63f677311d36a3473f6b978584f8a3845d023dc5
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  Logboard: 660364cbd45aa42fd79637f0cdfba3c950c613d8
+  MarqueeLabel: da4b9cf619fe70c75d7bab4580b0b4a0b868aa6b
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  NotificationBannerSwift: dce54ded532b26e30cd8e7f4d80e124a0f2ba7d1
+  OktaOidc: 15fb3d494103d4f07ba8a523b3347d02c4d30486
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  RCT-Folly: 803a9cfd78114b2ec0f140cfa6fa2a6bafb2d685
+  RCTRequired: e5dc0c44cb366fc93383a2bffbc190fe821e7293
+  RCTTypeSafety: 6a4d0cfe070e7fd996e797f439b70878764a1ae0
+  React: e194f6b2f0a4f8d24065f3ca0a6abe859694df65
+  React-callinvoker: a9e7bd8d87147de3530007a3d74afd4b7dbaf57e
+  React-Core: 4714b96060ccc19fdfbeec4e30c3b43ec82fb508
+  React-CoreModules: fbf9a30fe25385428a57bea57d3d6d27830111da
+  React-cxxreact: 4c8b1bfa89c6e98b8a05ebf0d9ba8d8e322e390c
+  React-jsi: 1653dc43b537777e80f8e6c9e36aa803c698e4d3
+  React-jsiexecutor: 1af5de75a4c834c05d53a77c1512e5aa6c18412f
+  React-jsinspector: ab80bcdb02f28cdfc0dbbaea6db1241565d59002
+  React-logger: b08f354e4c928ff794ca477347fea0922aaf11c3
+  React-perflogger: 9a6172711d9c4c8c7ac0a426717317c3c6ecf85c
+  React-RCTActionSheet: ed408b54b08278e6af8a75e08679675041da61ae
+  React-RCTAnimation: 0163b497a423a9576a776685c6e3fe276f934758
+  React-RCTBlob: 40e9a2ba218218cc120d037408e6c1686036a3ad
+  React-RCTImage: ae48901aecaf2b5a9f7f51cbb60fc36ff120115d
+  React-RCTLinking: 1e25d97db107eea60657211f7ecc4509587f8d29
+  React-RCTNetwork: 775383be87609cf2d7e182a9b967e51686f12b2f
+  React-RCTSettings: 4581080369f65e5bc388061ff7b9cba9389936c4
+  React-RCTText: 48df7f52519cfc6a9eb79a02acb3d33df04370a0
+  React-RCTVibration: 19c012d1202df46bafbe49268a346f6b3edadfdd
+  React-runtimeexecutor: 2c92a8bddd1a3e72c7513d1e74235c2d9c84875c
+  ReactCommon: 2e816fad39f65f2a94a5999d5be463a6b620dcf6
+  Realm: fac5ecd031fcb81171627b74944c885662d4b266
+  RealmSwift: 9b02d25acb46a14756bde9893abb99e2e3675923
+  Sentry: e3203780941722a1fcfee99e351de14244c7f806
+  SentryPrivate: 5e3683390f66611fc7c6215e27645873adb55d13
+  SimplePing: 4b3bdd3c779a77953809b75b9c8b3fff10586f14
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SnappersSDK: 5d20e9354e1caeb87001317f6f186f990645fecd
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
+  Yoga: 5cbf25add73edb290e1067017690f7ebf56c5468
+
+PODFILE CHECKSUM: 066f1f302f580484147d0e8582291f7284de07de
+
+COCOAPODS: 1.12.1
